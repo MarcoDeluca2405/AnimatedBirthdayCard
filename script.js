@@ -11,10 +11,10 @@ const helper = document.querySelector(".helper");
 
 const helper_text = document.querySelector(".text-helper");
 
-const happy_birthday = new Audio("/public/happy_birthday.mp3");
+const happy_birthday = new Audio("public/happy_birthday.mp3");
 happy_birthday.loop = true;
 
-const bubbleSrc = "/public/bubble.mp3";
+const bubbleSrc = "public/bubble.mp3";
 const preloadBubble = new Audio(bubbleSrc);
 preloadBubble.load();
 
