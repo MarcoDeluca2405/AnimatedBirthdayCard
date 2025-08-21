@@ -114,6 +114,7 @@ envelope.addEventListener("click", () => {
     }, 350);
 
     setTimeout(() => {
+      letter_back.style.display = "flex";
       letter_front.classList.add("open");
       setTimeout(() => {
         content.style.display = "none";

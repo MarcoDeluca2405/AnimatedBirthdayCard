@@ -170,7 +170,7 @@ body {
   transform: rotateY(180deg) translateX(10);
   transition: transform 1s ease;
   z-index: 1;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   background-image: url("public/biglietto\ di\ auguri-back.png");
